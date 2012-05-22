@@ -1,6 +1,3 @@
----
-layout: none
----
 <!DOCTYPE html>
 
 <html>
@@ -11,14 +8,14 @@ layout: none
     <meta name="author" content="">
 
     <!-- Le styles -->
-    <link href="{{ site.url }}/assets/css/bootstrap.css" rel="stylesheet">
-    <link href="{{ site.url }}/assets/css/bootstrap-responsive.css" rel="stylesheet">
-    <link href="{{ site.url }}/assets/css/solarized.css" rel="stylesheet">
-    <link href="{{ site.url }}/assets/css/docs.css" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="{{ site.url }}/assets/css/grid.css">
-    <link rel="stylesheet" type="text/css" href="{{ site.url }}/assets/css/style.css">
-    <script type="text/javascript" src="{{ site.url }}/assets/js/jquery-1.7.1.min.js"></script>
-    <script type="text/javascript" src="{{ site.url }}/assets/js/strftime.js"></script>
+    <link href="/assets/css/bootstrap.css" rel="stylesheet">
+    <link href="/assets/css/bootstrap-responsive.css" rel="stylesheet">
+    <link href="/assets/css/solarized.css" rel="stylesheet">
+    <link href="/assets/css/docs.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="/assets/css/grid.css">
+    <link rel="stylesheet" type="text/css" href="/assets/css/style.css">
+    <script type="text/javascript" src="/assets/js/jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="/assets/js/strftime.js"></script>
     <script type="text/javascript">
 
     (function ($, undefined) {
@@ -138,11 +135,11 @@ layout: none
           <a class="brand" href="#">Carl Boettiger</a>
           <div class="nav-collapse">
             <ul class="nav">
-              <li class=""><a href="{{ site.url }}/index.html">Home</a></li>
-              <li><a href="{{ site.url }}/vita.html">Vita</a></li>
-              <li><a href="{{ site.url }}/research.html">Research</a></li>
-              <li><a href="{{ site.url }}/teaching.html">Teaching</a></li>
-              <li><a href="{{ site.url }}/lab-notebook.html">Lab Notebook</a></li>
+              <li class=""><a href="/index.html">Home</a></li>
+              <li><a href="/vita.html">Vita</a></li>
+              <li><a href="/research.html">Research</a></li>
+              <li><a href="/teaching.html">Teaching</a></li>
+              <li><a href="/lab-notebook.html">Lab Notebook</a></li>
             </ul>
           </div><!--/.nav-collapse -->
            <form class="navbar-search pull-right" method="get" action="http://google.com/search">
@@ -187,4 +184,63 @@ layout: none
 <!--  </body>
 </html> -->
 
-{% include footer.html %}
+      <footer class="footer">
+         <div class="row">
+            <div class="span4">
+              <a href="mailto:cboettig@gmail.com"><i class="icon-envelope"></i></a>
+              <a href="https://twitter.com/cboettig"><img src="/assets/img/icon-twitter.png" alt="twitter"> </a> 
+              <a href="https://github.com/cboettig"><img src="/assets/img/icon-github.png" alt="github"></a> 
+              <a href="/atom.xml"><img src="/assets/img/icon-rss.png" alt="feed"></a>
+            </div>
+            <div class="span2" style="text-align:center">
+              <a rel="license" href="http://onsclaims.wikispaces.com/"><img src="http://onsclaims.wikispaces.com/file/view/ons-aci2-icon.png" alt="ONS"></a> <br><br>
+              <p> <a class="btn btn-mini" href="https://github.com/cboettig/labnotebook">view logs</a></p>
+            </div>
+            <div class="span4">
+              <a rel="license" href="http://creativecommons.org/publicdomain/zero/1.0/"><img src="http://i.creativecommons.org/l/zero/1.0/88x31.png" alt="CC0" style="float:right"></a> 
+            </div>
+        </div>
+      </footer>
+    </div><!-- /container -->
+    
+        <!-- Le javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <!-- Equations using MathJax -->
+    <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <script type="text/x-mathjax-config"> MathJax.Hub.Config({ TeX: { equationNumbers: {autoNumber: "all"} } });       </script>
+    <script src="/assets/js/jquery.js"></script>
+    <script src="/assets/js/bootstrap-collapse.js"></script>
+    <!--
+    <script src="/assets/js/bootstrap-dropdown.js"></script>
+    <script src="/assets/js/google-code-prettify/prettify.js"></script>
+    <script src="/assets/js/bootstrap-transition.js"></script>
+    <script src="/assets/js/bootstrap-alert.js"></script>
+    <script src="/assets/js/bootstrap-modal.js"></script>
+    <script src="/assets/js/bootstrap-scrollspy.js"></script>
+    <script src="/assets/js/bootstrap-tab.js"></script>
+    <script src="/assets/js/bootstrap-tooltip.js"></script>
+    <script src="/assets/js/bootstrap-popover.js"></script>
+    <script src="/assets/js/bootstrap-button.js"></script>
+    <script src="/assets/js/bootstrap-carousel.js"></script>
+    <script src="/assets/js/bootstrap-typeahead.js"></script>
+    <script src="/assets/js/application.js"></script>
+    -->
+
+
+      <script type="text/javascript">
+          var _gaq = _gaq || [];
+          _gaq.push(['_setAccount', 'UA-18401403-1']);
+          _gaq.push(['_trackPageview']);
+          (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+          })();
+  </script>
+
+<!--  UA-29776516-1 -->
+
+  </body>
+</html>
+
