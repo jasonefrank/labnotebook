@@ -13,7 +13,8 @@ gems:
 
 markdown: pandoc
 pandoc:
-   extensions: [smart, mathjax]
+   extensions:
+      - mathjax
 
 highlighter: pygments
 source: .
