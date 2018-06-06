@@ -1,6 +1,6 @@
 ---
 title: Science in the Sands
-subtitle: My open science notebook and blog
+subtitle: Mathematics and computation from the shores of the Red Sea
 ---
 
 {% include header.html %}
@@ -45,27 +45,14 @@ subtitle: My open science notebook and blog
 
     <div class="row">
       <div class="span12">
-         <hr>
+          <hr>
+          <h2>Older posts</h2>
           <div class="span9"> <br/> </div>
 
 
           <div class="postpreview">
             <div class="row">
-              {% for post in site.posts limit:3 offset:2 %}
-                <div class="span3">
-                  {% include postexcerpt.html %}
-                </div>
-              {% endfor %}
-            </div>
-            <div class="row">
-              {% for post in site.posts limit:3 offset:5 %}
-                <div class="span3">
-                  {% include postexcerpt.html %}
-                </div>
-              {% endfor %}
-            </div>
-            <div class="row">
-              {% for post in site.posts limit:3 offset:8 %}
+              {% for post in site.posts limit:9 offset:4 %}
                 <div class="span3">
                   {% include postexcerpt.html %}
                 </div>

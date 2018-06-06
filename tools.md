@@ -17,7 +17,7 @@ Bibtex files.
 
 Most papers are kept in private repositories on
 [Bitbucket](http://bitbucket.org).  My coauthors and I use **Git** to
-allow us to work reomtely on a paper and merge our changes.
+allow us to work remotely on a paper and merge our changes.
 If a coauthor is not comfortable with Git, papers are kept on **Dropbox**.
 
 ## Reading papers
