@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Science in the Sands
-subtitle: Mathematics and computation from the shores of the Red Sea
+title: Computational Dynamics
+subtitle: Numerical analysis, mathematical modelling, complex systems
 ---
 
 <div class="span12">
@@ -18,21 +18,17 @@ subtitle: Mathematics and computation from the shores of the Red Sea
 
 <div class="span4">
 
-<b>David I. Ketcheson</b></br>
-<img src="assets/img/davidketcheson.jpg" align="right"></img>
-I am an associate professor of
-<a href="http://cemse.kaust.edu.sa/academic/programs/applied-mathematics-computational-science/default.aspx">applied mathematics</a> at King Abdullah University
-of Science and Technology (<a href="http://www.kaust.edu.sa">KAUST</a>), where
-I lead the <a href="http://numerics.kaust.edu.sa">Numerical Mathematics Group</a>.
+<b>Jason Frank</b></br>
+<img src="assets/img/jasonfrank.jpg" align="right"></img>
+I am professor in the chair of <a href="https://www.uu.nl/staff/JEFrank">numerical analysis</a>, 
+director of the <a href="https://www.uu.nl/en/organisation/mathematical-institute">Mathematical Institute</a>, and head of the Department of Mathematics in the Faculty of Science of Utrecht University.
 
-My <a href="http://numerics.kaust.edu.sa/research.html">research</a> involves
-analysis and development of numerical methods for integration of ordinary
-and partial differential equations, as well as the implementation of such methods
-in <a href="code.html">open source, accessible, high performance software</a>
-and its application to understanding behavior of nonlinear waves in heterogeneous materials.
+My <a href="research.html">research</a> addresses numerical methods for ordinary, partial and stochastic differential equations, multiscale modelling and data assimilation with applications to science and technology.  In particular I am interested in applications in atmosphere/ocean/climate science, physics, and economics.
 
 <ul class="unstyled" style="font-size:.8em;line-height=.8em">
-<li style="margin:-6px"> Office: 4202 Al-Khawarizmi Building 
+  <li style="margin:-6px"> Office: Hans Freudenthal Building, room 7.13.</li>
+  <li style="margin:-6px"> Address: Budapestlaan 6, 3584 CD Utrecht.</li>
+  
 <li style="margin:-6px"> Email &amp; online networks: linked from icons below. </li>
 </ul>
 
