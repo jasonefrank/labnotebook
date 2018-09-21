@@ -19,7 +19,7 @@ subtitle: Numerical analysis, mathematical modelling, complex systems
 <div class="span4">
 
 <b>Jason Frank</b></br>
-<img src="assets/img/jason_frank_400px.jpg" align="right"></img>
+<img src="assets/img/jason_frank_2_400px.jpg" align="right"></img>
 I am professor in the chair of <a href="https://www.uu.nl/staff/JEFrank">numerical analysis</a>, 
 director of the <a href="https://www.uu.nl/en/organisation/mathematical-institute">Mathematical Institute</a>, and head of the Department of Mathematics in the Faculty of Science of Utrecht University.
 
