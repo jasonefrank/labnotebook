@@ -18,7 +18,7 @@ so setting my site up was as easy as following
 replacing the \_posts directory, and making a few CSS customizations.
 
 The [Publications page](publications.html) is generated from a bibtex file
-using some [code I wrote to generate HTML divs from Bibtex](https://github.com/ketch/tex2_rst_html).
+using some [code by David Ketcheson to generate HTML divs from Bibtex](https://github.com/ketch/tex2_rst_html).
 It also makes use of [jQuery](https://github.com/ketch/tex2_rst_html) and
 [MixItUp](https://mixitup.kunkalabs.com/) for filtering and searching.
 
