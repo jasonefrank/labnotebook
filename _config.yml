@@ -1,8 +1,8 @@
-title : David Ketcheson
-tagline: Numerical analysis and nonlinear waves
+title : Jason Frank
+tagline: Numerical analysis, computational mathematics, complex systems
 author :
-  name : David I. Ketcheson
-  email : dketch@gmail.com
+  name : Jason Frank
+  email : j.e.frank@uu.nl
 
 permalink: /:year/:month/:day/:title.html
 redirects: yes
@@ -22,7 +22,7 @@ lsi: True
 
 pageviews: yes    ## toggle on sidebar pageviews 
 gitstamps: yes
-repo: https://github.com/ketch/labnotebook # used in linking history
+repo: https://github.com/jasonefrank/labnotebook # used in linking history
 
 baseurl: '/'
 
